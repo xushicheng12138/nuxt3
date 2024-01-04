@@ -1,0 +1,87 @@
+@tailwind base;
+/* Preflight will be injected here */
+@tailwind components;
+@tailwind utilities;
+
+html{
+    font-size: 16px;
+}
+
+body {
+    font-family: "Manrope", sans-serif;
+    background: #ffffff;
+    font-weight: 400;
+    color: #1d2129;
+    font-size: 1rem;
+}
+
+.contact-buttom {
+    width: 8.5rem;
+    height: 2.88rem;
+    background: linear-gradient(180deg, #ede4ff 0%, #4f7eff 100%);
+    box-shadow: 0rem 0.13rem 0rem 0rem #e5e6eb;
+    border-radius: 2.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.menu-text {
+    cursor: pointer;
+}
+
+.footer-font-size {
+    font-size: 0.88rem;
+    font-weight: 400;
+    color: #e5e6eb;
+    line-height: 0.88rem;
+}
+
+.footer-tel {
+    font-size: 1.5rem;
+    font-family: Arial, Arial;
+    font-weight: 700;
+    color: #4f7eff;
+    line-height: 1.5rem;
+}
+
+.font-size-blod {
+    font-size: 1.88rem;
+    font-weight: 700;
+    color: #1D2129;
+    line-height: 1;
+}
+
+.text-bg {
+    background: linear-gradient(76deg, #BCEEFF 0%, #EDE4FF 100%);
+}
+
+.submit-buttom-bg {
+    background: #1D2129;
+    box-shadow: 0rem 0.13rem 0rem 0rem #E5E6EB;
+    border-radius: 2.88rem;
+    font-size: 1rem;
+    font-family: Manrope, Manrope;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 1rem;
+}
+
+/* antd样式 */
+:where(.css-dev-only-do-not-override-3m4nqy).ant-input-lg {
+    padding: 1rem 1.15rem;
+    border-radius: 2.88rem;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+textarea:where(.css-dev-only-do-not-override-3m4nqy).ant-input {
+    width: 63.06rem;
+    height: 9.38rem;
+    background: #FFFFFF;
+    border-radius: 1.25rem;
+}
+
+:where(.css-dev-only-do-not-override-3m4nqy).ant-form-item{
+    margin-bottom: 0.63rem;
+}
